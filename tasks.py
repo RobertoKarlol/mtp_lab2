@@ -1,8 +1,4 @@
-"""Задания по структурному программированию, вариант 5."""
-
-
 def primes_up_to(limit=100):
-    """Вернуть простые числа от 2 до limit включительно."""
     primes = []
     for number in range(2, limit + 1):
         divisor = 2
@@ -26,7 +22,6 @@ def count_vowels(text):
 
 
 def multiplication_table():
-    """Вернуть таблицу умножения чисел от 1 до 10."""
     table = []
     for first in range(1, 11):
         row = []
